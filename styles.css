@@ -1,0 +1,154 @@
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #3C336F;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    background-color: #6c59e0;
+    width: 1920px;
+    max-width: 1920px;
+    height: 1080px;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+    max-width: 100%;
+    margin: auto; 
+}
+
+.frame1 {
+    position: absolute;
+    width: 320px;
+    height: 81px;
+    top: 80.5px;
+    left: 570.35px;
+    background-color: #ffe500;
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    border-radius: 10px;
+    font-size: 1.5rem; 
+    transform: translate(-70%, -50%);
+}
+
+.image {
+    width: 44px;
+    height: 44px;
+    padding: 17px;
+}
+
+.frame1 img {
+    width: 44px; 
+    height: 44px;
+}
+
+.font {
+    color: #000000;
+    font-family: 'Manrope'
+}
+
+.frame2 {
+    position: absolute;
+    width: 436px;
+    height: 81px;
+    top: 80.5px;
+    left: 913.65px;
+    background-color: #000000;
+    border-radius: 10px;
+    font-size: 1.7rem; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    transform: translate(-50%, -50%);
+}
+
+.black-h2 {
+    color: white;
+    padding: 50px;
+    font-family: 'Manrope'
+}
+
+.frame3 {
+    width: 1428.57px;
+    height: 102px;
+    top: 219.03px;
+    left: 245.71px;
+    position: relative;
+    font-size: 3rem; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-right: 350px;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'Manrope'
+}
+
+.frame4 {
+    width: 1170.33px;
+    height: 531.16px;
+    top: 380px;
+    left: 321px;
+    margin-top: 200px;
+    padding: auto;
+    display: flex;
+    background-color: #1C2451;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 30px 5px #333333;
+}
+
+.img-container {
+    position: relative;
+    width: 100%;
+}
+
+.img-container img:first-child {
+    width: 100%;
+    display: block;
+}
+
+.img-container img:last-child {
+    position: absolute;
+    top: 49.98%;  
+    left: 76.5%;
+    transform: translate(-50%, -50%); 
+    display: block;
+}
+
+.frame5 {
+    width: 293px;
+    height: 62px;
+    top: 938.68px;
+    left: 813.5px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 1.4rem; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.h2 {
+    color: #000000; 
+    padding: 30px;
+    font-family: manrope;
+}
+@media (max-width: 768px) {
+    .frame {
+        flex-direction: column; 
+    }
+    img {
+        width: 100%; 
+    }
+}
