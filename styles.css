@@ -150,20 +150,28 @@ h1 {
     }
     body {
         font-size: 16px;
-        width: 50%;
+        width: 100%;
     }
     img {
         width: 50%; 
     }
     .img-container img:last-child {
-        max-width: 25%
+        width: 47%
     }
     .card {
-        width: 50%; 
+        width: 100%; 
+        
     }
-
-    h1 {
-        font-size: 22px;
+    .frame1 {
+        transform: translate(-210%, -50%);
+        position: absolute;
+    }
+    .frame2 {
+        transform: translate(-150%, -50%);
+        position: absolute;
+    }
+    .frame3 {
+        font-size: 50px;
     }
 
     p {
