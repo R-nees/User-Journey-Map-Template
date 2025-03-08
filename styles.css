@@ -150,14 +150,16 @@ h1 {
     }
     body {
         font-size: 16px;
-        width: 100%;
+        width: 50%;
     }
     img {
-        width: 100%; 
+        width: 50%; 
+    }
+    .img-container img:last-child {
+        max-width: 25%
     }
     .card {
-        width: 100%; 
-        
+        width: 50%; 
     }
 
     h1 {
