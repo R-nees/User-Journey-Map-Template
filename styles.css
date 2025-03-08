@@ -144,30 +144,96 @@ h1 {
     padding: 30px;
     font-family: manrope;
 }
-@media (max-width: 768px) {
-    .frame {
-        flex-direction: column; 
+media (max-width: 768px) {
+    html, body {
+        overflow-x: hidden; 
+        max-width: 100vw; 
     }
-    body {
-        font-size: 16px;
-        width: 100%;
+
+    #card {
+        width: 95%; 
+        max-width: 100%;
+        height: auto; 
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    img {
-        width: 50%; 
+
+
+    .frame1, .frame2 {
+        position: absolute;
+        width: 160px;
+        height: 50px;
+        font-size: 0.7rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
     }
-    .img-container img:last-child {
-        width: 47%
-    }
-    .card {
-        width: 100%; 
-        
-    }
+
     .frame1 {
-        transform: translate(-210%, -50%);
+        background-color: #ffe500;
+        top: 10%;
+        left: 50%;
+        transform: translate(-110%);
     }
+
     .frame2 {
-        transform: translate(-150%, -50%);
+        background-color: #000;
+        color: white;
+        top: 10%;
+        left: 50%;
+        transform: translate( 0%);
     }
+    .frame3 {
+        position: relative;
+        font-size: 1rem;
+        text-align: center;
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 20px; 
+        margin-top: -110px;
+        order: -1; 
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .frame4 {
+        width: 90%;
+        height: auto;
+        background-color: #1C2451;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 5px 30px 5px #333333;
+    }
+
+    .img-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-container img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .img-container img:last-child {
+       width: 47%;
+    }
+    .frame5 {
+        width: 80%;
+        max-width: 250px;
+        height: 50px;
+        font-size: 1.1rem;
+        text-align: center;
+        margin-top: 20px;
+        padding: auto;
+    }
+}
     .frame3 {
         font-size: 50px;
     }
